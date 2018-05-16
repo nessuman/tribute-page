@@ -1,0 +1,106 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #ffe6e6;
+}
+
+.title {
+  display: block;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: auto;
+  padding: 8px;
+}
+
+.title h1 {
+  font-weight: bold;
+}
+
+/*
+figure {
+  display: block;
+  text-align: center;
+  border: 2px white solid;
+  border-radius: 5px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin: 10px;
+  padding: 5px;
+}
+*/
+
+.headshot {
+  text-align: center;
+  padding: 10px 5px;
+  max-width: 50%;
+  margin: auto;
+}
+
+figure {
+  margin: auto;
+  width: 70%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.full-name {
+  display: block;
+  margin: 20px;
+  margin-top: 8px;
+  margin-bottom: auto;
+  padding: 8px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.content {
+  display: block;
+  margin: auto 75px;
+  padding: 5px;
+  line-height: 1.7;
+}
+
+.end-quote {
+  display: block;
+  text-align: center;
+  font-weight: 100;
+  max-width: 40%;
+  margin: auto;
+  padding: 10px 20px;
+  width: 80%;
+  background-color: #f2e6d9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.link {
+  text-align: right;
+  margin: 1px;
+  padding: 1px;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+hr {
+  margin-bottom: 0;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  padding-top: 10px;
+  background-color: white;
+  overflow: hidden;
+  color: black;
+  font-weight: 200;
+}
